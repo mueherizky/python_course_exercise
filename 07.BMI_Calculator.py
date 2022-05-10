@@ -14,3 +14,11 @@ print(f'Your height is ' + str(height))
 print(f'Your weight is ' + str(weight))
 print("================================")
 print(f'Your BMI is ' + str(result))
+
+print("--------------------------------------\n")
+
+# or like this, make it simple and more readable
+print(f'Your height is {height}')
+print(f'Your weight is {weight}')
+print("================================")
+print(f'Your BMI is {result}')
