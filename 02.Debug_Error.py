@@ -17,7 +17,7 @@ print("String Concatenation is done with the '+' sign.")
 # identation or tab is not neccessary on this line
 print('e.g. print("Hello " + "world")')
 
-# excess of brackets/paranthesis on head string
+# excess of parenthesis on head string
 print("New lines can be created with a backslash and n.")
 
 
