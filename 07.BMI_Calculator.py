@@ -7,7 +7,7 @@ print("=================================\n")
 height = float(input("enter your height in m: "))
 weight = int(input("enter your weight in kg: "))
 
-# make a result in integer not float with round function
+# make a result in integer/whole number not float with round function
 result = round(weight / (height * height))
 
 print(f'Your height is ' + str(height))
