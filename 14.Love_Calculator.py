@@ -28,9 +28,9 @@ love = l + o + v + e
 result = int(str(true) + str(love))
 
 # Conditional Statement
-if result < 10 or result > 90:
+if (result < 10) or (result > 90):
   print(f'Your score is {result}, you go together like coke and mentos')
-elif result > 40 and result < 50:
+elif (result > 40) and (result < 50):
   print(f'Your score is {result}, your are alright together')
 else:
   print(f'Your score is {result}')
