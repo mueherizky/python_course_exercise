@@ -9,9 +9,9 @@ age = int(input("What is your current age? : "))
 
 
 '''
-1. There are 365 days in a year
-2. There are 52 weeks in a year
-3. There are 12 months in a year 
+    1. There are 365 days in a year
+    2. There are 52 weeks in a year
+    3. There are 12 months in a year 
 '''
 fix_num = 90
 years = fix_num - age

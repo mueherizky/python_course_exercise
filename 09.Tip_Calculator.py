@@ -21,16 +21,16 @@ split = final_bill / people
 
 
 '''
-to round n decimal places if it contains zero like price,
-example $12.00
-we must use ":.<n>f"
-n is how many decimal what do you print. 
-like this, :.2f will print 2 decimal after number.
-32 ---> 32.00
-14.2 --> 14.20
+    to round n decimal places if it contains zero like price,
+    example $12.00
+    we must use ":.<n>f"
+    n is how many decimal what do you print. 
+    like this, :.2f will print 2 decimal after number.
+    32 ---> 32.00
+    14.2 --> 14.20
 
-We can use:
-1. print f string             ---> print(f'{39.54484700000000:.2f}') will result "39.54"
-2. or print formatting string ---> print("{:.2f}".format(39.54484700000000)) will result same too
+    We can use:
+    1. print f string             ---> print(f'{39.54484700000000:.2f}') will result "39.54"
+    2. or print formatting string ---> print("{:.2f}".format(39.54484700000000)) will result same too
 '''
 print(f'Each person should pay ${split:.2f}')
